@@ -32,7 +32,7 @@ class GitIgnoreMixin(object):
         gitignore = list(filter(lambda x: x.split('.')[0].lower() == language, all_ignores))
 
         if len(gitignore) == 1:
-            copy2(os.path.join('gitignore', gitignore[0]), self.repo_root)
+            copy2(os.path.join('gitignore_examples', gitignore[0]), self.repo_root)
         else:
             warnings.warn("""Unable to locate relevant gitignore config""")
 
