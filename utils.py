@@ -1,6 +1,6 @@
 import os
 
-def is_over_hundred(file):
+def is_large(file):
     """
     check if file size is greater than 100mb
 

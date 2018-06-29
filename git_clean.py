@@ -5,10 +5,6 @@ from shutil import copy2
 
 from utils import is_gitignore, is_large
 
-called_dir = '/Users/jasonlewris/Desktop/GitProjects/gitclean'
-
-language = 'python'
-
 
 class GitIgnoreMixin(object):
     """Mixin class for all gitignore operations"""
@@ -42,8 +38,11 @@ class GitIgnoreMixin(object):
 
         :return: N/A
         """
-        gitignore = list(filter(lambda x: x.lower().endswith('.gitignore'), os.listdir(self.repo_root)))
-        self.gitignore = os.path.join(self.repo_root, gitignore)
+        if is_gitignore(self.repo_root):
+            gitignore = list(filter(lambda x: x.lower().endswith('.gitignore'), os.listdir(self.repo_root)))
+            self.gitignore = os.path.join(self.repo_root, gitignore[0])
+        else:
+            raise RuntimeError("""Unable to locate gitignore file. Use add_gitignore and specify programming language""")
 
 
 class LargeFileMixin(object):
@@ -67,12 +66,15 @@ class LargeFileMixin(object):
 
         :return: N/A
         """
+        self.large_files = []
         for root, dirs, files in os.walk(self.repo_root, topdown=True):
             for file in files:
                 full_fpath = os.path.join(root, file)
                 if is_large(full_fpath):
                     # write large file to gitignore
                     self.write_large_file(full_fpath)
+                    self.large_files.append(full_fpath)
+
 
 class GitClean(GitIgnoreMixin, LargeFileMixin):
 
@@ -115,12 +117,3 @@ class GitClean(GitIgnoreMixin, LargeFileMixin):
 
         # traverse large files
         self.traverse_large_files()
-
-
-
-
-
-
-
-if __name__ == '__main__':
-    print(os.getcwd())

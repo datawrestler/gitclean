@@ -1,0 +1,6 @@
+gitclean.egg-info/PKG-INFO
+gitclean.egg-info/SOURCES.txt
+gitclean.egg-info/dependency_links.txt
+gitclean.egg-info/entry_points.txt
+gitclean.egg-info/requires.txt
+gitclean.egg-info/top_level.txt
