@@ -39,5 +39,3 @@ class TestUtils(unittest.TestCase):
         result = is_gitignore(p)
         self.assertEqual(result, True,
                          msg="""is_gitignore unable to locate gitignore from root directory""")
-
-
