@@ -17,6 +17,7 @@ Installation
 To install gitmagic, simply use pip:
 
 .. code-block:: python
+
     pip install gitmagic
 
 Usage
@@ -25,6 +26,7 @@ Usage
 Using gitmagic is easy. Simply before making your commits on your repo, run the following from the command line:
 
 .. code-block:: console
+
     mygitclean --verbose --add_gitignore --language python --max_file_size 100
 
 Parameters
