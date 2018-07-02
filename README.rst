@@ -8,7 +8,7 @@ git commits when a data file contained in the repo was over 100mb. This would th
 history from the git log. Now with gitmagic, you can simply run the utility function before performing your commits and all files over 100mb (or user defined max_file_size)
 will be automatically added to the .gitignore file.
 
-Additionally, the best .gitignore examples from [dozens of programming languages](https://github.com/github/gitignore) can be automatically added to your repo based on your programming language.
+Additionally, the best .gitignore examples from `dozens of programming languages <https://github.com/github/gitignore>` _ can be automatically added to your repo based on your programming language.
 
 
 Installation

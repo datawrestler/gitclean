@@ -27,6 +27,7 @@ wheels/
 env/
 .idea/
 gitmagic.egg-info/
+/__pycache__/
 MANIFEST
 
 # PyInstaller
