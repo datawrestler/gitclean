@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d696e74-1109-4d20-bfd8-8300349c67c1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/conda" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/deactivate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +32,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="399">
+              <caret line="37" column="67" lean-forward="true" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="python.gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -125,6 +141,7 @@
         <option value="$PROJECT_DIR$/gitmagic/git_clean.py" />
         <option value="$PROJECT_DIR$/gitmagic/utils.py" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/python.gitignore" />
       </list>
     </option>
   </component>
@@ -151,17 +168,6 @@
             <path>
               <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitclean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitclean" type="462c0819:PsiDirectoryNode" />
-              <item name="gitmagic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gitclean" type="462c0819:PsiDirectoryNode" />
-              <item name="gitmagic" type="462c0819:PsiDirectoryNode" />
-              <item name="gitignore_examples" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,7 +241,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="422" y="23" width="1434" height="991" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -243,8 +248,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32997763" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25359195" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32997763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25359195" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -331,7 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python.gitignore" />
     <entry file="file://$PROJECT_DIR$/gitclean.egg-info/entry_points.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -433,8 +437,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="399">
+          <caret line="37" column="67" lean-forward="true" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
