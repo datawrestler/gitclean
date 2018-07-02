@@ -2,8 +2,9 @@ import os
 import sys
 import warnings
 from shutil import copy2
+import pkg_resources
 
-from utils import is_gitignore, is_large
+from gitmagic.utils import is_gitignore, is_large
 
 
 class GitIgnoreMixin(object):
@@ -22,15 +23,13 @@ class GitIgnoreMixin(object):
             raise RuntimeError("""repo_root needs to be identified prior to calling 
             return_gitignore_file""")
 
-        # TODO anchor gitignore dir down so its found in the sample place everywhere
-        all_ignores = os.listdir('gitignore')
+        ignore_name = language.lower() + '.gitignore'
 
-        gitignore = list(filter(lambda x: x.split('.')[0].lower() == language, all_ignores))
-
-        if len(gitignore) == 1:
-            copy2(os.path.join('gitignore_examples', gitignore[0]), self.repo_root)
+        if pkg_resources.resource_exists('gitmagic.gitignore_examples', ignore_name):
+            copy2(pkg_resources.resource_filename('gitmagic.gitignore_examples', ignore_name), self.repo_root)
         else:
-            warnings.warn("""Unable to locate relevant gitignore config""")
+            warnings.warn("""Unable to locate relevant gitignore config -- copying generic gitignore file""")
+            copy2(pkg_resources.resource_filename('gitmagic.gitignore_examples', 'common.gitignore'), self.repo_root)
 
     def get_repo_gitignore(self):
         """
@@ -59,7 +58,7 @@ class LargeFileMixin(object):
             outfile.write(lg_file_path)
             outfile.close()
 
-    def traverse_large_files(self):
+    def traverse_large_files(self, max_file_size=100):
         """
         traverse from the top of the root directory downwards, flag large files,
         and write to gitignore file
@@ -70,7 +69,7 @@ class LargeFileMixin(object):
         for root, dirs, files in os.walk(self.repo_root, topdown=True):
             for file in files:
                 full_fpath = os.path.join(root, file)
-                if is_large(full_fpath):
+                if is_large(full_fpath, max_file_size=max_file_size):
                     # write large file to gitignore
                     self.write_large_file(full_fpath)
                     self.large_files.append(full_fpath)
@@ -103,7 +102,8 @@ class GitClean(GitIgnoreMixin, LargeFileMixin):
         self.get_repo_root(parent, recursion_level + 1)
 
     def git_magic(self, add_gitignore=True,
-                  language='Python'):
+                  language='Python',
+                  max_file_size=100):
 
         # find repo root
         self.get_repo_root(self.called_dir)
@@ -116,4 +116,4 @@ class GitClean(GitIgnoreMixin, LargeFileMixin):
         self.get_repo_gitignore()
 
         # traverse large files
-        self.traverse_large_files()
+        self.traverse_large_files(max_file_size=max_file_size)

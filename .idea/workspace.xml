@@ -2,13 +2,404 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d696e74-1109-4d20-bfd8-8300349c67c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gitmagic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/git_clean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/actionscript.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ada.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/agda.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/android.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/anjuta.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ansible.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/appceleratortitanium.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/appengine.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/archives.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/archlinuxpackages.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/autotools.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/backup.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/bazaar.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/bricxcc.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/c++.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/c.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cakephp.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/calabash.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cfwheels.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/chefcookbook.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/clojure.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cloud9.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cmake.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/codeigniter.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/codekit.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/common.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/commonlisp.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/composer.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/concrete5.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/contributing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/coq.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/craftcms.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cuda.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/cvs.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/d.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/dart.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/darteditor.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/delphi.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/dm.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/dreamweaver.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/dropbox.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/drupal.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/eagle.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/eclipse.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/eiffelstudio.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/elisp.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/elixir.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/elm.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/emacs.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ensime.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/episerver.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/erlang.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/espresso.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/expressionengine.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/extjs.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/fancy.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/finale.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/flexbuilder.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/forcedotcom.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/fortran.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/fuelphp.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/gcov.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/gitbook.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/go.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/godot.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/gpg.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/gradle.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/grails.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/gwt.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/haskell.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/idris.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/igorpro.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/java.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/jboss.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/jdeveloper.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/jekyll.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/jenv.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/jetbrains.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/joomla.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/julia.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/kate.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/kdevelop4.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/kicad.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/kohana.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/kotlin.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/labview.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/laravel.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lazarus.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/leiningen.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lemonstand.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/libreoffice.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lilypond.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/linux.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lithium.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lua.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/lyx.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/macos.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/magento.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/matlab.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/maven.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/mercurial.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/mercury.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/metaprogrammingsystem.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/microsoftoffice.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/modelsim.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/momentics.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/monodevelop.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/nanoc.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/netbeans.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/nim.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ninja.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/node.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/notepadpp.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/objective-c.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ocaml.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/opa.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/opencart.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/oracleforms.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/otto.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/packer.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/perl.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/perl6.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/phalcon.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/playframework.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/plone.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/prestashop.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/processing.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/purescript.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/python.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/qooxdoo.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/qt.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/r.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/rails.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/redcar.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/redis.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/rhodesrhomobile.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ros.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/ruby.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/rust.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sass.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sbt.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/scala.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/scheme.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/scons.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/scrivener.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sdcc.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/seamgen.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sketchup.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/slickedit.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/smalltalk.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/stata.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/stella.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sublimetext.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/sugarcrm.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/svn.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/swift.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/symfony.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/symphonycms.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/synopsysvcs.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/tags.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/terraform.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/tex.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/textmate.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/textpattern.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/tortoisegit.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/turbogears2.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/typo3.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/umbraco.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/unity.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/unrealengine.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/vagrant.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/vim.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/virtualenv.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/visualstudio.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/visualstudiocode.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/vvvv.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/waf.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/webmethods.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/windows.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/wordpress.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/xcode.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/xilinxise.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/xojo.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/yeoman.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/yii.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/zendframework.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/gitignore_examples/zephir.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/scratch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.csh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/activate.fish" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/bin/python3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/env/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/git_clean.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitmagic/git_clean.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitclean.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Actionscript.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Ada.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Agda.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Android.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Anjuta.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Ansible.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/AppEngine.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/AppceleratorTitanium.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ArchLinuxPackages.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Archives.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Autotools.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Backup.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Bazaar.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/BricxCC.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/C++.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/C.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CFWheels.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CMake.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CUDA.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CVS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CakePHP.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Calabash.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ChefCookbook.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Clojure.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Cloud9.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CodeIgniter.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CodeKit.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CommonLisp.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Composer.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Concrete5.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Coq.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/CraftCMS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/D.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/DM.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Dart.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/DartEditor.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Delphi.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Dreamweaver.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Dropbox.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Drupal.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/EPiServer.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Eagle.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Eclipse.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/EiffelStudio.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Elisp.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Elixir.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Elm.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Emacs.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Ensime.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Erlang.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Espresso.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ExpressionEngine.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ExtJs.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Fancy.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Finale.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/FlexBuilder.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ForceDotCom.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Fortran.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/FuelPHP.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/GPG.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/GWT.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Gcov.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/GitBook.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Go.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Godot.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Gradle.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Grails.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Haskell.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/IGORPro.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Idris.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/JDeveloper.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/JEnv.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Java.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Jboss.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Jekyll.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/JetBrains.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Joomla.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Julia.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/KDevelop4.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Kate.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/KiCad.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Kohana.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Kotlin.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/LabVIEW.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Laravel.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Lazarus.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Leiningen.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/LemonStand.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/LibreOffice.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Lilypond.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Linux.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Lithium.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Lua.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/LyX.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Magento.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Matlab.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Maven.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Mercurial.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Mercury.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/MetaProgrammingSystem.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/MicrosoftOffice.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ModelSim.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Momentics.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/MonoDevelop.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Nanoc.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/NetBeans.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Nim.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Ninja.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Node.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/NotepadPP.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/OCaml.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Objective-C.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Opa.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/OpenCart.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/OracleForms.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Otto.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Packer.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Perl.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Perl6.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Phalcon.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/PlayFramework.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Plone.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Prestashop.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Processing.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/PureScript.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Python.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Qooxdoo.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Qt.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/R.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ROS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Rails.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Redcar.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Redis.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/RhodesRhomobile.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Ruby.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Rust.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SBT.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SCons.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SVN.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Sass.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Scala.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Scheme.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Scrivener.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Sdcc.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SeamGen.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SketchUp.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SlickEdit.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Smalltalk.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Stata.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Stella.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SublimeText.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SugarCRM.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Swift.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Symfony.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SymphonyCMS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/SynopsysVCS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Tags.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/TeX.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Terraform.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/TextMate.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Textpattern.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/TortoiseGit.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/TurboGears2.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Typo3.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Umbraco.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Unity.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/UnrealEngine.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/VVVV.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Vagrant.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Vim.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/VirtualEnv.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/VisualStudio.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/VisualStudioCode.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Waf.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/WebMethods.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Windows.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/WordPress.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Xcode.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/XilinxISE.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Xojo.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Yeoman.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Yii.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/ZendFramework.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/Zephir.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore_examples/macOS.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitmagic.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitmagic/gitmagic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitmagic/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,12 +412,21 @@
     <SUITE FILE_PATH="coverage/gitclean$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1530141600676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
+        <entry file="file://$PROJECT_DIR$/gitmagic/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -34,7 +434,7 @@
       <file leaf-file-name="scratch.py" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="60">
               <caret line="5" column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
@@ -46,8 +446,8 @@
       <file leaf-file-name="scratch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scratch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="117" selection-start-line="12" selection-end-line="117" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -55,11 +455,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="git_clean.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/git_clean.py">
+      <file leaf-file-name="git_clean.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="117" selection-start-line="44" selection-start-column="117" selection-end-line="44" selection-end-column="117" />
+            <state relative-caret-position="-906">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -68,10 +468,10 @@
         </entry>
       </file>
       <file leaf-file-name="gitmagic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gitmagic.py">
+        <entry file="file://$PROJECT_DIR$/gitmagic/gitmagic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -82,8 +482,8 @@
       <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -112,9 +512,16 @@
         <option value="$PROJECT_DIR$/scratch.py" />
         <option value="$PROJECT_DIR$/gitignore_examples/git_clean.py" />
         <option value="$PROJECT_DIR$/cli.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/gitmagic.py" />
+        <option value="$PROJECT_DIR$/MANIFEST.in" />
+        <option value="$PROJECT_DIR$/gitignore_examples/common.gitignore" />
         <option value="$PROJECT_DIR$/git_clean.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/gitmagic/gitignore_examples/__init__.py" />
+        <option value="$PROJECT_DIR$/gitmagic/gitmagic.py" />
+        <option value="$PROJECT_DIR$/gitmagic/git_clean.py" />
+        <option value="$PROJECT_DIR$/gitmagic/utils.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -125,7 +532,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="292" />
+    <option name="x" value="422" />
     <option name="y" value="23" />
     <option name="width" value="1434" />
     <option name="height" value="991" />
@@ -135,7 +542,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,10 +549,22 @@
               <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
               <item name="gitclean" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitclean" type="462c0819:PsiDirectoryNode" />
+              <item name="gitmagic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gitclean" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitclean" type="462c0819:PsiDirectoryNode" />
+              <item name="gitmagic" type="462c0819:PsiDirectoryNode" />
+              <item name="gitignore_examples" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,6 +573,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gitmagic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -208,30 +631,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="292" y="23" width="1434" height="991" extended-state="0" />
+    <frame x="196" y="23" width="1434" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32997763" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32997763" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32997763" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25359195" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,9 +664,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gitmagic/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="60">
           <caret line="5" column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -251,32 +681,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore/source">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore_examples/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="150" selection-start-line="2" selection-start-column="150" selection-end-line="2" selection-end-column="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gitignore_examples/git_clean.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="1680">
           <caret line="117" selection-start-line="12" selection-end-line="117" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
@@ -284,9 +691,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitmagic.py">
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitmagic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="315">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -301,23 +708,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
+    <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git_clean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="117" selection-start-line="44" selection-start-column="117" selection-end-line="44" selection-end-column="117" />
+        <state relative-caret-position="1350">
+          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python.gitignore" />
+    <entry file="file://$PROJECT_DIR$/gitclean.egg-info/entry_points.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitclean.egg-info/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitclean.egg-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitclean.egg-info/dependency_links.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitclean.egg-info/SOURCES.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/ada.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/archives.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/composer.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/common.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pkg_resources/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1527" selection-start-line="1527" selection-end-line="1527" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitmagic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/gitignore_examples/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="114" lean-forward="true" selection-start-line="2" selection-start-column="114" selection-end-line="2" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

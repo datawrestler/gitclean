@@ -1,0 +1,7 @@
+MANIFEST.in
+gitmagic.egg-info/PKG-INFO
+gitmagic.egg-info/SOURCES.txt
+gitmagic.egg-info/dependency_links.txt
+gitmagic.egg-info/entry_points.txt
+gitmagic.egg-info/requires.txt
+gitmagic.egg-info/top_level.txt
