@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d696e74-1109-4d20-bfd8-8300349c67c1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/gitmagic/tests/test_gitignore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitmagic/tests/test_large_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitmagic/tests/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitmagic/tests/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitmagic/tests/test_gitignore.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitmagic/tests/test_gitignore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,19 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/gitclean$Unittests_in_test_large_file_py.coverage" NAME="Unittests in test_large_file.py Coverage Results" MODIFIED="1530581941609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitmagic/tests" />
     <SUITE FILE_PATH="coverage/gitclean$Unittests_in_test_utils_py.coverage" NAME="Unittests in test_utils.py Coverage Results" MODIFIED="1530498425759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitmagic/tests" />
     <SUITE FILE_PATH="coverage/gitclean$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1530141600676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/gitclean$Unittests_in_test_gitignore_py.coverage" NAME="Unittests in test_gitignore.py Coverage Results" MODIFIED="1530555157770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitmagic/tests" />
+    <SUITE FILE_PATH="coverage/gitclean$Unittests_in_test_gitignore_py.coverage" NAME="Unittests in test_gitignore.py Coverage Results" MODIFIED="1530578066352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitmagic/tests" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.57170355">
+    <splitter split-orientation="horizontal" split-proportion="0.5151515">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gitmagic/utils.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+                  <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -35,7 +36,7 @@
             <entry file="file://$PROJECT_DIR$/README.rst">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
-                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -44,7 +45,7 @@
             <entry file="file://$PROJECT_DIR$/python.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="360">
-                  <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                  <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -52,8 +53,8 @@
           <file leaf-file-name="git_clean.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="58">
-                  <caret line="28" selection-start-line="28" selection-end-line="28" />
+                <state relative-caret-position="-603">
+                  <caret line="32" selection-start-line="32" selection-end-line="32" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
@@ -65,7 +66,7 @@
             <entry file="file://$PROJECT_DIR$/gitmagic/gitmagic.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="285">
-                  <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+                  <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#12#0" expanded="true" />
                   </folding>
@@ -107,11 +108,23 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_gitignore.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="test_gitignore.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gitmagic/tests/test_gitignore.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+                <state relative-caret-position="458">
+                  <caret line="59" lean-forward="true" selection-start-line="5" selection-end-line="59" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_large_file.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gitmagic/tests/test_large_file.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="474">
+                  <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -152,13 +165,14 @@
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/gitmagic/gitignore_examples/__init__.py" />
         <option value="$PROJECT_DIR$/gitmagic/gitmagic.py" />
-        <option value="$PROJECT_DIR$/gitmagic/git_clean.py" />
         <option value="$PROJECT_DIR$/python.gitignore" />
         <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/gitmagic/tests/git_clean_tests.py" />
         <option value="$PROJECT_DIR$/gitmagic/utils.py" />
         <option value="$PROJECT_DIR$/gitmagic/tests/test_utils.py" />
         <option value="$PROJECT_DIR$/gitmagic/tests/test_gitignore.py" />
+        <option value="$PROJECT_DIR$/gitmagic/git_clean.py" />
+        <option value="$PROJECT_DIR$/gitmagic/tests/test_large_file.py" />
       </list>
     </option>
   </component>
@@ -169,9 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="125" />
-    <option name="y" value="168" />
-    <option name="width" value="1517" />
+    <option name="x" value="-120" />
+    <option name="y" value="23" />
+    <option name="width" value="1839" />
     <option name="height" value="991" />
   </component>
   <component name="ProjectView">
@@ -228,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_gitignore.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_large_file.py">
     <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="gitclean" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -262,6 +276,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/gitmagic/tests/test_gitignore.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_large_file.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="gitclean" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gitmagic/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/gitmagic/tests/test_large_file.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in test_utils.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="gitclean" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,9 +308,11 @@
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python tests.Unittests in test_utils.py" />
       <item itemvalue="Python tests.Unittests in test_gitignore.py" />
+      <item itemvalue="Python tests.Unittests in test_large_file.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_large_file.py" />
         <item itemvalue="Python tests.Unittests in test_gitignore.py" />
         <item itemvalue="Python tests.Unittests in test_utils.py" />
         <item itemvalue="Python.scratch" />
@@ -303,36 +333,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 13m 39s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 48m 55s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 13m 57s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 49m 40s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 14m 27s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 51m 09s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 17m 43s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 51m 36s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 25m 14s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 53m 09s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 25m 32s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 53m 44s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 26m 48s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 53m 48s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_utils_py - 2018.07.01 at 22h 27m 05s.xml">
-      <configuration name="Unittests in test_utils.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 20h 55m 18s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_gitignore_py - 2018.07.02 at 14h 10m 26s.xml">
-      <configuration name="Unittests in test_gitignore.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 21h 35m 52s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_large_file_py - 2018.07.02 at 21h 36m 26s.xml">
+      <configuration name="Unittests in test_large_file.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="125" y="168" width="1517" height="991" extended-state="0" />
+    <frame x="-120" y="23" width="1839" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -340,9 +373,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32997763" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32997763" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36465323" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32997763" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23932204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1964385" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -504,21 +537,21 @@
     <entry file="file://$PROJECT_DIR$/python.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gitmagic/gitmagic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
@@ -532,16 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitmagic/tests/test_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -552,10 +575,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/git_clean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/tests/large_file.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/tests/python.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gitmagic/tests/test_gitignore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="458">
+          <caret line="59" lean-forward="true" selection-start-line="5" selection-end-line="59" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gitmagic/tests/test_large_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="104" column="7" selection-start-line="104" selection-start-column="7" selection-end-line="104" selection-end-column="7" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

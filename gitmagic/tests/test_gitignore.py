@@ -19,8 +19,37 @@ class TestGitIgnoreMixin(unittest.TestCase):
         self.GC.get_repo_root(os.getcwd())
 
     def tearDown(self):
+        """remove created files in test dir"""
         os.removedirs('.git')
-        os.remove('.gitignore')
+        # remove any language transferred files
+        for f in os.listdir(os.getcwd()):
+            if f.endswith('.gitignore'):
+                os.remove(f)
+
+    def test_add_gitignore_languages(self):
+        """test core programming language gitignores are available"""
+        languages = [
+            'python',
+            'java',
+            'c++',
+            'c',
+            'common',
+            'eclipse',
+            'go',
+            'haskell',
+            'jboss',
+            'perl',
+            'r',
+            'ruby',
+            'scala',
+            'vim',
+            'windows',
+        ]
+
+        for lang in languages:
+            self.GC.return_gitignore_file(language=lang)
+            self.assertIn('{lang}.gitignore'.format(lang=lang), os.listdir(os.getcwd()),
+                          msg="""{lang}.gitignore not properly transferred""".format(lang=lang))
 
     def test_get_repo_gitignore(self):
         """test .gitignore located"""
