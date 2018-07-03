@@ -1,5 +1,4 @@
 import os
-import sys
 import warnings
 from shutil import copy2
 import pkg_resources
@@ -80,7 +79,7 @@ class GitClean(GitIgnoreMixin, LargeFileMixin):
     def __init__(self, called_dir):
         self.called_dir = called_dir
 
-    def get_repo_root(self, called_dir, recursion_level=0):
+    def find_repo_root(self, called_dir, recursion_level=0):
         """
         get the root directory of current repo
         :param called_dir:
@@ -99,14 +98,15 @@ class GitClean(GitIgnoreMixin, LargeFileMixin):
 
         # otherwise step back a directory and try again
         parent, dir = os.path.split(called_dir)
-        self.get_repo_root(parent, recursion_level + 1)
+        self.find_repo_root(parent, recursion_level + 1)
 
     def git_magic(self, add_gitignore=True,
                   language='Python',
                   max_file_size=100):
+        """core control structure method"""
 
         # find repo root
-        self.get_repo_root(self.called_dir)
+        self.find_repo_root(self.called_dir)
 
         if add_gitignore:
             # add gitignore

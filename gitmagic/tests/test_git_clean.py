@@ -17,7 +17,7 @@ class BaseTest(unittest.TestCase):
             outfile.close()
 
         self.GC = GitClean(os.getcwd())
-        self.GC.get_repo_root(os.getcwd())
+        self.GC.find_repo_root(os.getcwd())
 
     def tearDown(self):
         """remove created files in test dir"""
@@ -78,7 +78,7 @@ class TestLargeFileMixin(BaseTest):
             outfile.write(os.urandom(gig))
 
         self.GC = GitClean(os.getcwd())
-        self.GC.get_repo_root(os.getcwd())
+        self.GC.find_repo_root(os.getcwd())
         self.GC.return_gitignore_file()
         self.GC.get_repo_gitignore()
 
@@ -102,10 +102,10 @@ class TestLargeFileMixin(BaseTest):
                          msg="""test_large_file.txt not written to gitignore""")
 
 class TestGitClean(BaseTest):
-    
-    def test_get_repo_root(self):
+
+    def test_find_repo_root(self):
         """Test identification of repo root"""
-        self.GC.get_repo_root(os.getcwd())
+        self.GC.find_repo_root(os.getcwd())
         self.assertEqual(self.GC.repo_root, os.getcwd(),
                         msg="""repo root different than called dir""")
 
